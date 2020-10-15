@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html, body{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.navbar{
+    padding: .8rem;
+    background:  rgb(216, 166, 1);
+    background-color: rgba(216, 166, 1, 0.836);
+}
+.navbar-nav li{
+    padding-right: 20px;
+}
+.nav-link{
+    font-size: 1.1em !important;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1{
+    font-size: 300%;
+    text-transform: uppercase;
+}
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+.padding{
+    padding-bottom: 2rem;
+}
+
+.welcome{
+    color: black;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.fa-tshirt, .fa-glasses, .fa-paint-brush{
+    font-size: 4rem;
+    margin: 1rem;
+}
+.social a{
+    font-size: 4.5rem;
+    padding: 3rem;
+}
+.fa-facebook{
+    color:#3b5998;
+}
+.fa-twitter{
+    color:#00aced;
+}
+.fa-instagram{
+    color:#517fa4;
+}
+.fa-youtube{
+    color:#bb0000;
+}
+.fa-facebook hover, .fa-twitter hover, .fa-instagram hover, .fa-youtube hover{
+    color:#d5d5d5;
+}
+footer{
+    background-color: #3f3f3f;
+    padding-top: 2rem;
+}
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+}
+
+.form-control{
+    margin-top: 9px;
+    margin-left: 30px;
+    border: 1px solid rgba(167, 131, 14, 0.836) !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.input-group-text
+{
+    background: rgba(167, 131, 14, 0.836);
+    border: 1px solid rgba(167, 131, 14, 0.836);
+    margin: 8.5px 10px 3px 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    box-shadow: none !important;
+    cursor: pointer;
+}
+
+.search-box{
+    display: inline-flex;
+    width: 60%;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+html{
+    background-color: rgba(167, 131, 14, 0.836);
+}
+
+
+.container-fluid{
+    background-color: rgba(255, 255, 255, 0);
+    /*background-color: rgba(248, 179, 3, 0.705);*/
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
